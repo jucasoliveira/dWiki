@@ -1,0 +1,17 @@
+{
+  "canisters": {
+    "dWiki": {
+      "build": "cargo build --target wasm32-unknown-unknown --package dWiki --release",
+      "candid": "src/dWiki/src/dWiki.did",
+      "wasm": "target/wasm32-unknown-unknown/release/dWiki.wasm",
+      "type": "custom"
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
