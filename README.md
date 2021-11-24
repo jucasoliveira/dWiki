@@ -1,2 +1,5 @@
 # dWiki
-Descentralized wiki
+Decentralized wiki
+
+
+Creating a encyclopedia on decentralized world.
